@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Andrés Castro — Guitarist. Creator. Built for the world stage.</title>
+<meta name="description" content="The first Central American guitarist officially representing Abasi Concepts. Fishman artist and Sweetwater affiliate creator, with over a decade of international touring experience." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ NAV (floating over HERO) ============ -->
+<nav class="site-nav">
+  <div class="nav-pill">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#brands" class="nav-link">Brands</a>
+    <a href="#touring" class="nav-link">Touring</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-contact-btn">Contact</a>
+    <button class="nav-burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile full-screen menu (see docs/preview-site/Menu-Behavior.pdf) -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__top">
+    <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Cerrar menú">
+      <span></span><span></span>
+    </button>
+    <a href="#contact" class="btn">Contact</a>
+  </div>
+  <div class="mobile-menu__links">
+    <a href="#home">Home</a>
+    <a href="#brands">Brands</a>
+    <a href="#touring">Touring</a>
+    <a href="#projects">Projects</a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="hero__bg">
+    <video autoplay muted loop playsinline poster="assets/images/hero/hero-bg.jpg">
+      <source src="assets/video/hero-bg.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero__inner">
+    <div>
+      <h1 class="hero__title">Andrés<br>castro</h1>
+      <div class="hero__subtitle">
+        <span>guitarist.</span>
+        <span>creator.</span>
+        <span>built for the</span>
+        <span>world stage.</span>
+      </div>
+      <a href="mailto:andres@andrescastro.live" class="btn hero__cta">Work with Andrés</a>
+    </div>
+    <div class="hero__side">
+      <div class="hero__logos">
+        <img class="logo-abasi" src="assets/images/logos/logo-abasi.png" alt="Abasi Concepts">
+        <img src="assets/images/logos/logo-sweetwater.png" alt="Sweetwater">
+        <img src="assets/images/logos/logo-fishman.png" alt="Fishman">
+      </div>
+      <p class="hero__blurb">The first Central American guitarist officially representing Abasi Concepts. Fishman artist and Sweetwater affiliate creator, with over a decade of international touring experience.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ============ PROOF ============ -->
+<section class="proof section-pad">
+  <div class="container">
+    <div class="proof__top">
+      <h2 class="gradient-heading on-light proof__heading">10+ years in the world of music production.</h2>
+      <div class="proof__credentials">
+        <span class="proof__now-tag">NOW</span>
+        <a href="https://delfino.cr/2026/03/guitarrista-costarricense-andres-castro-se-une-al-roster-internacional-de-abasi-concepts" target="_blank" rel="noopener">ABASI CONCEPTS Artist.</a>
+        <a href="https://fishman.com/artist/andres-castro/" target="_blank" rel="noopener">FISHMAN Artist.</a>
+        <span class="credential-plain">SWEETWATER Affiliate Creator.</span>
+      </div>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="false">
+    <div class="marquee__track" id="proofTrack">
+      <!-- 10 images, duplicated once by JS for seamless loop -->
+      <img src="assets/images/proof-carousel/proof-01.png" alt="">
+      <img src="assets/images/proof-carousel/proof-02.png" alt="">
+      <img src="assets/images/proof-carousel/proof-03.png" alt="">
+      <img src="assets/images/proof-carousel/proof-04.png" alt="">
+      <img src="assets/images/proof-carousel/proof-05.png" alt="">
+      <img src="assets/images/proof-carousel/proof-06.png" alt="">
+      <img src="assets/images/proof-carousel/proof-07.png" alt="">
+      <img src="assets/images/proof-carousel/proof-08.png" alt="">
+      <img src="assets/images/proof-carousel/proof-09.png" alt="">
+      <img src="assets/images/proof-carousel/proof-10.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- ============ PILARS: why brands work with Andrés ============ -->
+<section class="pilars section-pad" id="brands">
+  <div class="container">
+    <h2 class="gradient-heading pilars__heading">Why brands work with Andrés</h2>
+
+    <div class="pilar-grid">
+      <!-- Pilar 1: FOR BRANDS -->
+      <article class="pilar pilar--brands">
+        <div class="pilar__media">
+          <img src="assets/images/pilar-brands-01.png" alt="Andrés Castro con su equipo — For Brands" class="is-active">
+        </div>
+        <div class="pilar__body">
+          <span class="eyebrow">For brands</span>
+          <h3>Active endorsements with Fishman and Abasi Concepts.</h3>
+          <p>Content that demonstrates gear in real technical contexts, demos, tone comparisons, and tutorials that speak directly to progressive and extreme metal players.</p>
+          <p>Strong presence across Latin America, Europe, and Asia. Ideal for brands looking for a credible technical voice that bridges LATAM and global markets.</p>
+          <a href="mailto:andres@andrescastro.live" class="btn">Submit Partnership Proposal</a>
+        </div>
+      </article>
+
+      <!-- Pilar 2: FOR PRODUCERS & MANAGEMENT (tour) -->
+      <article class="pilar pilar--tour">
+        <div class="pilar__media" id="pilarTourMedia">
+          <img class="is-active" src="assets/images/pilar-tour/pilar-01.png" alt="Andrés Castro en gira">
+          <img src="assets/images/pilar-tour/pilar-02.png" alt="">
+          <img src="assets/images/pilar-tour/pilar-03.png" alt="">
+          <img src="assets/images/pilar-tour/pilar-04.png" alt="">
+          <img src="assets/images/pilar-tour/pilar-05.png" alt="">
+        </div>
+        <div class="pilar__body">
+          <span class="eyebrow">For producers &amp; management</span>
+          <h3>Tour &amp; Session Guitarist</h3>
+          <p>Available for international tours (fill-in or permanent), album recording (studio or remote), solo/arrangement writing, and accelerated repertoire preparation.</p>
+          <p>Specialist in learning complex setlists in days, not weeks. Reliable under pressure and easy to work with on the road.</p>
+          <a href="mailto:andres@andrescastro.live" class="btn">Send Session Brief</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ON STAGE WITH ============ -->
+<section class="on-stage section-pad" id="touring">
+  <div class="container">
+    <h2 class="gradient-heading on-stage__heading">On stage with</h2>
+    <p class="on-stage__blurb">Driven by seamless industry adaptability and absolute commitment, Andrés elevates top-tier acts across the entire pipeline, delivering world-class results as a guitar tech, performing artist, and audio assistant producer.</p>
+
+    <div class="on-stage__grid">
+      <div class="band-scroller">
+        <div class="band-scroller__track" id="bandTrack">
+          <span>Black Sabbath</span>
+          <span>Destruction</span>
+          <span>Slayer</span>
+          <span>Megadeth</span>
+          <span>Cradle of Filth</span>
+          <span>In Flames</span>
+          <span>Il Niño</span>
+          <span>Devil Driver</span>
+        </div>
+      </div>
+      <div class="on-stage__photo" id="onStagePhoto">
+        <img class="is-active" src="assets/images/on-stage/stage-01.png" alt="Andrés Castro en escenario">
+        <img src="assets/images/on-stage/stage-02.png" alt="">
+        <img src="assets/images/on-stage/stage-03.png" alt="">
+        <img src="assets/images/on-stage/stage-04.png" alt="">
+        <img src="assets/images/on-stage/stage-05.png" alt="">
+        <img src="assets/images/on-stage/stage-06.png" alt="">
+        <img src="assets/images/on-stage/stage-07.png" alt="">
+        <img src="assets/images/on-stage/stage-08.png" alt="">
+        <img src="assets/images/on-stage/stage-09.png" alt="">
+        <img src="assets/images/on-stage/stage-10.png" alt="">
+      </div>
+    </div>
+
+    <div class="on-stage__stats">
+      <div>10+ years<br>touring</div>
+      <div>15+<br>countries</div>
+      <div>3 active<br>endorsements</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACTIVE PROJECTS ============ -->
+<section class="projects section-pad" id="projects">
+  <div class="container">
+    <h2 class="gradient-heading on-light projects__heading">Active projects</h2>
+
+    <article class="project-card">
+      <div class="project-card__media"><img src="assets/images/project-cards/sight-of-emptiness.png" alt="Sight of Emptiness"></div>
+      <div class="project-card__body">
+        <h3>Sight of Emptiness</h3>
+        <p class="tagline">Upcoming Asia/Dubai Tour 2026</p>
+        <a href="https://www.instagram.com/sightofemptiness/" target="_blank" rel="noopener">More about this band →</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card__media"><img src="assets/images/project-cards/wings-of-destiny.png" alt="Wings of Destiny"></div>
+      <div class="project-card__body">
+        <h3>Wings of Destiny</h3>
+        <p class="tagline">Power Metal Band</p>
+        <a href="https://www.instagram.com/wingsofdestinyband/" target="_blank" rel="noopener">More about this band →</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card__media">Asset pendiente — foto/clip de Güarianera</div>
+      <div class="project-card__body">
+        <h3>Güarianera</h3>
+        <p class="tagline">Costa Rican progressive metal fusion</p>
+        <a href="https://www.sunfyretv.com/home" target="_blank" rel="noopener">More about this band →</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card__media">Asset pendiente — foto/clip de Savage Existence</div>
+      <div class="project-card__body">
+        <h3>Savage Existence</h3>
+        <p class="tagline">Groove Metal Band</p>
+        <a href="https://savageexistence.com/" target="_blank" rel="noopener">More about this band →</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card__media">Asset pendiente — foto/clip de Amarillo Cian y Magenta</div>
+      <div class="project-card__body">
+        <h3>Amarillo Cian y Magenta</h3>
+        <p class="tagline">Fusion Jazz / Rock Ensemble</p>
+        <a href="https://www.instagram.com/amarillocianymagenta/" target="_blank" rel="noopener">More about this band →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact section-pad" id="contact">
+  <div class="container">
+    <h2 class="gradient-heading contact__heading">How can we work together?</h2>
+
+    <div class="contact__grid">
+      <div class="contact__col">
+        <span class="eyebrow">Brands</span>
+        <h3>Gear, audio, or distribution brand?</h3>
+      </div>
+      <div class="contact__col">
+        <span class="eyebrow">Producers / Management</span>
+        <h3>Need a guitarist for tour or recording?</h3>
+      </div>
+      <div class="contact__col">
+        <span class="eyebrow">Press / Podcasts</span>
+        <h3>Interview, clinic, or content collaboration?</h3>
+      </div>
+    </div>
+
+    <a href="mailto:andres@andrescastro.live" class="btn">Contact Andrés</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <p class="footer__brand">Andrés<br>castro</p>
+    <p class="footer__tagline-box">Guitarist. Creator.<br>Built for the world stage.</p>
+    <ul class="footer__contact">
+      <li><a href="mailto:andres@andrescastro.live">andres@andrescastro.live</a></li>
+      <li><a href="https://wa.me/50687141984" target="_blank" rel="noopener">+506 8714 1984</a></li>
+      <li><a href="https://instagram.com/andrescastrocr" target="_blank" rel="noopener">@andrescastrocr</a></li>
+    </ul>
+    <ul class="footer__nav">
+      <li><a href="#brands">Brands</a></li>
+      <li><a href="#touring">Toutring</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
