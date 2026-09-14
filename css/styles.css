@@ -406,6 +406,9 @@ body.menu-open {
   .hero__logos {
     justify-content: flex-end;
   }
+   .hero__social {
+    justify-content: flex-end;
+   }
 }
 
 /* ==========================================================================
