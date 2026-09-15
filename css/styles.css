@@ -354,7 +354,7 @@ body.menu-open {
 .hero__logos {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -365,7 +365,7 @@ body.menu-open {
   opacity: 0.95;
 }
 
-.hero__logos img.logo-abasi { height: 26px; }
+.hero__logos img.logo-abasi { height: 8px; }
 
 .hero__blurb {
   color: var(--white);
