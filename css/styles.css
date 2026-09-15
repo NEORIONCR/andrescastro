@@ -348,13 +348,13 @@ body.menu-open {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-width: 420px;
+  max-width: 520px;
 }
 
 .hero__logos {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 
